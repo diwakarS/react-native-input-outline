@@ -1,0 +1,35 @@
+{
+  "name": "react-native-input-outline",
+  "version": "1.0.0",
+  "description": "A react-native component for a themed text input box.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swushi/react-native-input-outline.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "input",
+    "text",
+    "textinput",
+    "text-input"
+  ],
+  "author": "Sam Autrey",
+  "license": "ISC",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react": "^16.12.0",
+    "react-native": "^0.61.5"
+  }
+}
