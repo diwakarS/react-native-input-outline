@@ -1,6 +1,6 @@
 {
   "name": "react-native-input-outline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react-native component for a themed text input box.",
   "main": "index.js",
   "scripts": {
