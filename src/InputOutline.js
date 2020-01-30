@@ -13,7 +13,7 @@ const COLOR_UNFOCUSED = "#c5b4b8";
 const COLOR_FOCUSED = "blue";
 const DURATION = 350;
 
-export default class RoundedInputBox extends React.Component {
+export default class InputOutline extends React.Component {
   state = {
     currColor: COLOR_UNFOCUSED,
     labelWidth: null,
@@ -109,13 +109,13 @@ export default class RoundedInputBox extends React.Component {
   }
 }
 
-RoundedInputBox.propTypes = {
+InputOutline.propTypes = {
   focusedColor: PropTypes.string,
   defaultColor: PropTypes.string,
   placeholder: PropTypes.string
 };
 
-RoundedInputBox.defaultProps = {
+InputOutline.defaultProps = {
   focusedColor: COLOR_FOCUSED,
   defaultColor: COLOR_UNFOCUSED,
   placeholder: "Placeholder"
