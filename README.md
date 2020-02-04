@@ -6,7 +6,7 @@ A react-native component that uses a customized text input.
 
 ## Installation
 
-    $ npm i -- save react-native-input-outline
+    $ npm i --save react-native-input-outline
 
 or
 
