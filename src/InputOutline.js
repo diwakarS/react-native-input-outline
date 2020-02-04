@@ -27,15 +27,11 @@ export default class InputOutline extends React.Component {
     this.setState({ currColor: this.props.focusedColor, focused: true });
     this.labelRef.transitionTo(
       {
-        transform: [
-          { translateY: -(INPUT_HEIGHT / 2) },
-          { translateX: -PADDING },
-          { scale: 0.8 }
-        ]
+        transform: [{ translateY: -(INPUT_HEIGHT / 2) }, { scale: 0.8 }]
       },
       DURATION
     );
-    this.spacerRef.transitionTo({ transform: [{ scaleX: 0.85 }] }, DURATION);
+    this.spacerRef.transitionTo({ transform: [{ scaleX: 1 }] }, DURATION);
   }
 
   async handleUnFocus() {
@@ -79,6 +75,7 @@ export default class InputOutline extends React.Component {
             position: "absolute",
             top: -BORDER_WIDTH,
             width: labelWidth,
+            left: PADDING,
             backgroundColor: focused ? BG_COLOR : currColor,
             height: BORDER_WIDTH,
             transform: [{ scaleX: 0 }]
