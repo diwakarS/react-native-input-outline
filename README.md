@@ -1,6 +1,6 @@
 # react-native-input-outline
 
-A react-native component that uses a customized text input.
+A customized react-native TextInput using react-native-animatable
 
 ![](react-native-input-outline.gif)
 
